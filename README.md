@@ -1,4 +1,4 @@
-# 🎨 Artist Portfolio Website – Gabriel
+# 🎨 Artist Portfolio Website 
 
 This is a simple, responsive static website designed to showcase the portfolio of an artist named Gabriel. Built with pure HTML, CSS, and a touch of JavaScript. The site highlights the artist's journey, work, blog, and contact details.
 
