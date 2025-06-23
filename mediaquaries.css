@@ -1,0 +1,368 @@
+@media screen and (max-width: 1400px) {
+
+    /* GENERAL */ 
+
+    .logo {
+        height: 12vh;
+    }
+
+    /* HOMPAGE */
+
+    #contact,
+    #homepage {
+        padding: 5rem;
+        transition: .3s;
+    }
+
+    #homepage {
+        gap: 3rem;
+    }
+    
+
+    .section-text p {
+        margin-top: 1rem;
+        font-weight: 500;
+    }
+    
+    /* BLOG PAGE */
+
+    .about-section-picture-portrait {
+        height: 60vh;
+        transition: .2s;
+    }
+
+    #about-background h1 {
+        margin-top: 2rem;
+    }  
+
+    .about-text {
+        width: 50vw;
+    }
+
+    #blog-container-parent {
+        gap: 1rem;
+        transition: .2s;
+    }
+
+    .blog-container-left {
+        margin-left: 1rem;
+    }
+
+    .blog-container-right {
+        margin-right: 1rem;
+    }
+
+    .blog-post {
+        margin: 1rem 0 1rem 0;
+    }
+
+    .latest-posts,
+    .spotify-player,
+    .news-letter {
+        margin: 1rem 0 1rem 0;
+    }
+    
+    /* CONTACT PAGE */
+    
+    .contact-form h1, 
+    .title {
+        font-size: 4rem;
+    }
+
+    .contact-form p {
+        margin-bottom: 3rem;
+    }
+    
+
+}
+
+@media screen and (max-width: 1200px) {
+
+
+    /* GENERAL */
+
+    #desktop-nav {
+        display: none;
+    } 
+
+    #hamburger-nav {
+        display: flex;
+    }
+
+    
+    /* HOME PAGE */
+    
+    #homepage {
+        height: auto;
+    }
+  
+
+    /* ABOUT PAGE */
+
+    .secondary-title {
+        font-size: 2rem;
+    }
+
+    .about-section-picture-portrait {
+        height: 35vh;
+    }
+
+    .about-section-picture-landscape {
+        padding-top: 0;
+    }
+
+    .about-section-picture-landscape img {
+        height: 40vh;
+    }
+
+    .about-text {
+        width: 50vw;
+    }
+
+    .about-text p {
+        font-size: 14px;
+        font-weight: 200;
+        margin-top: 1rem;
+    }
+
+    #about-background h1 {
+        margin-top: 1rem;
+    }  
+
+
+    /* BLOG PAGE */
+
+    #blog-container-parent {
+        flex-direction: column;
+        gap: 0;
+        margin: 1rem;
+    }
+
+    .blog-container-left {
+        width: auto;
+        margin-left: 0;
+    }
+
+    .blog-container-right {
+        width: auto;
+        margin-top: 5rem;
+    }
+
+
+    /* CONTACT PAGE */
+    
+    #contact {
+        margin-top: 2rem;
+        transition: .3s;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 2rem;
+        padding: 2rem;
+        
+    }
+   
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        width: auto;
+        height: auto;
+        margin-bottom: 5rem
+    }
+
+    .contact-form h1 {
+        text-align: center;
+    }
+
+    .contact-form form {
+        text-align: center;
+    }
+
+    .contact-img {
+        height: auto;
+        min-width: auto;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    /* GENERAL */
+
+    section {
+        margin: 0 1rem;
+    }
+
+    footer {
+        margin-top: 4rem;
+    }
+    
+    footer nav {
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+  
+    .nav-links {
+        flex-direction: column;
+        gap: 0.4rem;
+        text-align: center;
+        
+    }
+
+
+    /* HOMPAGE */
+    #homepage {
+        flex-direction: column;
+        padding: 0;
+        margin-bottom: 5rem;
+        margin-top: 5rem;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .homepage-picture {
+        height: auto;
+        width: auto;
+        margin: auto;
+    }
+
+    .homepage-picture img {
+        height: auto;
+        width: 90vw;
+        margin: 0;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .section-text {
+        width: 90vw;
+    }
+
+    .section-text p {
+        font-size: 1.2rem;
+        line-height: 2rem;
+        color: black;
+    }
+
+
+    
+    /* ABOUT PAGE */
+
+    #about-me, 
+    #about-journey,
+    #about-background {
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        gap: 2rem;
+        margin-bottom: 10rem;
+    }
+
+    .about-text {
+        height: auto;
+        width: auto;
+    }
+
+    .about-text p {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+
+    .about-section-picture-portrait {
+        margin-top: 1rem;
+        height: auto;
+    }
+
+    .about-section-picture-portrait img {
+        height: 50vh;
+        width: auto;
+        margin: 0;
+    }
+
+    .about-section-picture-landscape {
+        padding: 0;
+    }
+    .about-section-picture-landscape img {
+        width: 95vw;
+        height: auto;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    /* BLOG PAGE */
+
+    .blog-title {
+        font-size: 3rem;
+    }
+
+    .post-headline {
+        font-size: 2rem
+    }
+
+    .blog-container-parent {
+        font-size: 20px;
+    }
+
+    .blog-post p, 
+    .news-letter p {
+        font-size: 1.2rem;
+    }
+
+    .latest-posts {
+        padding: 2rem;
+    }
+
+    .latest-posts li {
+        font-size: 1.5rem;
+        margin: 1rem 0;
+    }
+
+
+    /* TOUR PAGE */
+
+    #tour {
+        justify-content: center;
+        text-align: center;
+    }
+
+    #tour h1 {
+        font-size: 2rem;
+    }
+
+    /* CONTACT PAGE */
+
+
+    #contact {
+        padding: 0;
+        text-align: center;
+        
+    }
+
+    #contact h1 {
+        font-size: 3rem;
+    }
+
+    #contact p {
+        font-size: 1.3rem;
+        line-height: 2rem;
+
+    }
+    .contact-img {
+        width: 90vw;
+    }
+
+    .contact-img img {
+        width: 90vw;
+        height: auto;
+    }
+    
+}

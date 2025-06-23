@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Andreas Hagenstam">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="homepage, Gabriel Cancela">
+    <meta name="keywords" content="Gabriel Cancela, idol, music, producing, spotify">
+    <meta name="robots" content="about, follow">
+    <link rel="stylesheet" href="stylesheet-main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="mediaquaries.css">
+    <title>Gabriel Cancela</title>
+</head>
+
+<Body>
+    <header>
+        <nav id="desktop-nav">
+            <img class="logo" src="./media/pics/GC-logo-black.png" alt="Gabriel Cancela Logo">
+            <div>
+                <ul class="nav-links">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="tour.html">Tour</a></li>
+                    <li><a href="contact.html">Contact <span>Me</span></a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <img class="logo" src="./media/pics/GC-logo-black.png" alt="Gabriel Cancela Logo">
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <ul>
+                        <li><a href="home.html" onclick="toggleMenu()">Home</a></li>
+                        <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+                        <li><a href="blog.html" onclick="toggleMenu()">Blog</a></li>
+                        <li><a href="tour.html" onclick="toggleMenu()">Tour</a></li>
+                        <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        
+        <section id="about-me">
+            <div class="about-section-picture-portrait">
+                <img src="media/pics/gabriel.jpg" alt="">
+            </div>
+            <div class="about-text">
+                <h1 class="secondary-title"> About <span>Gabriel</span></h1>
+                <p>
+                    Born on December 8, 1992, in Stockholm (Sweden), Gabriel is best known for his soul and R&B inspired
+                    sound. Gabriel gained fame attending the thirteenth season of the popular Swedish Idol competition
+                    in 2017, in which he placed third overall. Since his departure from the program, Gabriel has
+                    garnered a vast following of fans and has since been releasing music with his label, Loco Diablo
+                    Productions.
+                </p>
+            </div>
+            <img src="media/pics/arrow.png" alt="Arrow icon" class="arrow" onclick="location.href='#about-background'"/>
+        </section>
+        <section id="about-background">
+            <div class="about-section-picture-landscape">
+                <img src="media/pics/background.jpg" alt="">
+            </div>
+            <div class="about-text">
+                <h1 class="secondary-title"> Back<span>ground</span> </h1>
+                <p> Gabriels's father originates from the Latin-American country of Uruguay and Gabriels mother
+                    originates from Sweden. Even though his upbringing was solely in Sweden he lets his heritage shine
+                    through in his music and style.
+                    <br><br>
+                    Gabriel comes from a family of musicians and grew up with recurrent guitar jam-parties around the
+                    dinner table with his grandfather, father, and uncles. His grandfather was a tango-singer from
+                    Uruguay and his dad had a salsa band in his younger days. Even though their musical careers had
+                    ended long ago, the music never stopped in the Cancela household.
+                </p>
+            </div>
+            <img src="media/pics/arrow.png" alt="Arrow icon" class="arrow" onclick="location.href='#about-journey'"/>
+        </section>
+        <section id="about-journey">
+            <div class="about-section-picture-portrait">
+                <img src="media/pics/journey.jpeg" alt="">
+            </div>
+            <div class="about-text">
+                <h1 class="secondary-title"> Jour<span>ney</span> </h1>
+                <p>From singing and writing music in his childhood room to 3rd place in Swedish idol to finally starting
+                    his own record label with his younger brother, Lu Ziano, who is Gabriel’s producer and a
+                    well-recognized rapper on his own. Gabriel is finally taking his own steps onto the music-scene.
+                    <br><br>
+                    With singles like “Simple”, “You Deserve Better” and “Sin Ti” continuously hitting the radio waves.
+                    There is no telling where his music-career might take him.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="tour.html">Tour</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div id="socials">
+                <a href="https://www.facebook.com/gabrielcancelamusic"><i class="fa fa-facebook-f fa-lg"></i></a>
+                <a href="https://open.spotify.com/artist/6k42dfNSO5jlFt2Df7PwFr"><i class="fa fa-spotify fa-lg"></i></a>
+                <a href="https://www.instagram.com/gabriellcancela/"><i class="fa fa-instagram fa-lg"></i></a>
+                <a href="https://www.youtube.com/@gabrielcancela"><i class="fa fa-youtube fa-lg"></i></a>
+            </div>
+            <p class="copyright"> Gabriel Cancela @ 2024</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</Body>
+
+</html>
